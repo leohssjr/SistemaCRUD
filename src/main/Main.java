@@ -191,6 +191,7 @@ public class Main {
 		String nacionalidade;
 		String peDominante;
 		int numeroCamisa;
+		Time time;
 		
 		in.nextLine();
 		
@@ -207,6 +208,9 @@ public class Main {
 		peDominante = in.nextLine();
 		System.out.println("Digite o número da camisa do jogador:");
 		numeroCamisa = in.nextInt();
+		System.out.println("Digite o número relacionado ao time do jogador: ");
+		listarTimes();
+		
 		
 		Jogador j = new Jogador(nome, idade, altura, nacionalidade, peDominante, numeroCamisa);
 		return j;	
