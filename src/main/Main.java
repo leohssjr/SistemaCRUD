@@ -42,7 +42,7 @@ public class Main {
 		 		removerTime();
 		 		break;
 		 	case 7:
-		 		System.out.println("Escolha uma das ligas a seguir para editar as informações:\n");
+		 		System.out.println("Escolha um dos times a seguir para editar as informações:\n");
 		 		listarTimes();
 		 		aux = in.nextInt();
 				Time t = lerDadosTime();
